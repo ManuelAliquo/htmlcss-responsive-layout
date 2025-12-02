@@ -10,6 +10,29 @@
   .recipe-origin {
     display: inline;
   }
+
+  .recipe-name {
+    font-size: 2rem;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .blender,
+  .clock,
+  .pie {
+    flex-basis: 209px;
+  }
+
+  .cost {
+    flex-basis: 225px;
+  }
+
+  .pin {
+    flex-basis: 170px;
+  }
 }
 
 @media screen and (min-width: 992px) {

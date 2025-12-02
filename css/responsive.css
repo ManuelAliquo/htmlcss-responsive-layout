@@ -2,6 +2,11 @@
   #topbar {
     justify-content: flex-start;
   }
+
+  main {
+    padding: 40px;
+  }
+
   .recipe-origin {
     display: inline;
   }

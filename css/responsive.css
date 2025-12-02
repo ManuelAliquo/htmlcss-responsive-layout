@@ -1,3 +1,16 @@
+/* Bonus Large-Mobile */
+@media screen and (min-width: 576px) {
+  .presentation img {
+    float: left;
+    margin-right: 10px;
+  }
+
+  .social-networks .btn {
+    padding: 10px 35px;
+  }
+}
+
+/* Tablet */
 @media screen and (min-width: 768px) {
   #topbar {
     justify-content: flex-start;
@@ -48,6 +61,7 @@
   }
 }
 
+/* Desktop */
 @media screen and (min-width: 992px) {
   .recipe-name {
     font-size: 2.8rem;

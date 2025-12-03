@@ -33,7 +33,12 @@
     flex-wrap: wrap;
   }
 
-  .blender,
+  li {
+    flex-basis: calc(100% / 3);
+  }
+
+  /* INUTILMENTE COMPLICATO */
+  /* .blender,
   .clock,
   .pie {
     flex-basis: 209px;
@@ -45,7 +50,7 @@
 
   .pin {
     flex-basis: 170px;
-  }
+  } */
 
   .social-networks .btn {
     padding: 10px 50px;
